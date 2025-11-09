@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URsync-AI</title>
+    <style>
+        /* Grundlegendes Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: linear-gradient(90deg, #00ff7f, #00cfff);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00ff7f;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            text-align: center;
+            background: url('https://via.placeholder.com/1920x1080') center/cover no-repeat;
+            position: relative;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background: rgba(0,0,0,0.6);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+        }
+
+        .hero-content h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #00ff7f;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        .hero-content a {
+            text-decoration: none;
+            padding: 15px 30px;
+            background-color: #00ff7f;
+            color: #000;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .hero-content a:hover {
+            background-color: #00cfff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>URsync-AI</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">Über uns</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Moderne AI-Lösungen für Creator</h2>
+            <p>Wir verbinden Kreativität mit modernster KI-Technologie, um digitale Erlebnisse zu revolutionieren.</p>
+            <a href="#contact">Jetzt starten</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 URsync-AI. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
